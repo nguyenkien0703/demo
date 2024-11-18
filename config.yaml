@@ -1,0 +1,12 @@
+postgres:
+  connectionString: $POSTGRES_CONNECTION_STRING
+app:
+  jwtSecret: $JWT_SECRET
+  jwtDuration: $JWT_DURATION
+  refreshTokenDuration: $REFRESH_TOKEN_DURATION
+smtp:
+  host: $SMTP_HOST
+  port: $SMTP_PORT
+  username: $SMTP_USERNAME
+  password: $SMTP_PASSWORD
+  from: $SMTP_FROM
